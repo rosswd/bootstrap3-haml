@@ -1,0 +1,58 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "width=device-width, initial-scale=1", name: "viewport"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "", name: "author"}/
+    %link{href: "../../assets/ico/favicon.ico", rel: "shortcut icon"}/
+    %title Narrow Jumbotron Template for Bootstrap
+    / Bootstrap core CSS
+    %link{:href => "css/bootstrap.min.css", :rel => :stylesheet}/
+    / Custom styles for this template
+    %link{:href => "css/jumbotron-narrow.css", :rel => :stylesheet}/
+    / Just for debugging purposes. Don't actually copy this line!
+    /[if lt IE 9] <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  %body
+    .container
+      .header
+        %ul.nav.nav-pills.pull-right
+          %li.active
+            %a{href: "#"} Home
+          %li
+            %a{href: "#"} About
+          %li
+            %a{href: "#"} Contact
+        %h3.text-muted Project name
+      .jumbotron
+        %h1 Jumbotron heading
+        %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        %p
+          %a.btn.btn-lg.btn-success{href: "#", role: "button"} Sign up today
+      .row.marketing
+        .col-lg-6
+          %h4 Subheading
+          %p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Maecenas sed diam eget risus varius blandit sit amet non magna.
+        .col-lg-6
+          %h4 Subheading
+          %p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Maecenas sed diam eget risus varius blandit sit amet non magna.
+      .footer
+        %p © Company 2014
+    / /container
+    /
+      Bootstrap core JavaScript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
